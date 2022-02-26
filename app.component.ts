@@ -577,7 +577,7 @@ export class AppComponent {
       document.querySelectorAll('.e-menu-item')
     );
 
-    if (elem.closest('.e-row')) {
+    if (elem.closest('.e-column')) {
       document
         .querySelectorAll('li#rmultiSelect')[0]
         .setAttribute('style', 'display: block;');
