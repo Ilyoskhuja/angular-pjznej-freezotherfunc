@@ -591,9 +591,7 @@ export class AppComponent {
       document
         .querySelectorAll('li#filter')[0]
         .setAttribute('style', 'display: block;');
-      document
-        .querySelectorAll('li#multiSort')[0]
-        .setAttribute('style', 'display: block;');
+    
     }
   }
 
